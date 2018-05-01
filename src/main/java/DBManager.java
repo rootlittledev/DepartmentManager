@@ -12,14 +12,14 @@ class DBManager {
 
         manager.getTransaction().begin();
 
-        /*manager.persist(new Employee("Adam","NULP", "Head", 7000));
+        manager.persist(new Employee("Adam","NULP", "Head", 7000));
         manager.persist(new Employee("Alex", "NULP", "assistant", 3100));
         manager.persist(new Employee("Peter", "NULP", "associate professor", 4000));
         manager.persist(new Employee("Victor", "NULP", "professor", 5300));
         manager.persist(new Employee("Igor", "LNU", "Head", 6000));
         manager.persist(new Employee("Nick", "LNU", "assistant", 3000));
         manager.persist(new Employee("Bob", "LNU", "associate professor", 3500));
-        manager.persist(new Employee("Leo", "LNU", "professor", 4000));*/
+        manager.persist(new Employee("Leo", "LNU", "professor", 4000));
     }
 
     void closeConnection(){
